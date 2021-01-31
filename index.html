@@ -1,18 +1,52 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
+
 <head>
     <title>My first webpage</title>
-    <script src = "main.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body><h1 id="heading1" onclick = "changecolor()">I'm testing h1 tag</h1>
-<h2 id="heading2" onclick = "changecolor2()">I'm testing h2 tag</h2>
-<h3 id="heading3" onmouseover = "changesize()">I'm testing h3 tag</h3>
-<h4 id="heading4" ondblclick = "changebc()">I'm testing h4 tag</h4>
-<h5>I'm testing h5 tag</h5>
-<h6>I'm testing h6 tag</h6>
-<i>I am testing italics tag</i>
-<b>I am testign bold tag</b>
-<u> I am testing underline tag</u>
+
+<body>
+    <h1 id="heading1" onclick="changecolor()">I'm testing h1 tag</h1>
+    <h2 id="heading2" onclick="changecolor2()">
+        <marquee behavior="alternate" direction="left">
+            <span>I'm testing h2 tag</span>
+        </marquee>
+    </h2>
+    <div class="block">
+        <h3 id="heading3" onmouseover="changesize()">I'm testing h3 tag</h3>
+        <h4 id="heading4" ondblclick="changebc()">I'm testing h4 tag</h4>
+        <h5>I'm testing h5 tag</h5>
+        <h6>I'm testing h6 tag</h6>
+    </div>
+    <div class="cards">
+        <ul>
+            <li class="list list-1">
+                <big>I am testing big tag</big> <br>
+                <small>I am testing small tag</small>
+            </li>
+            <li class="list list-2">
+                <strong>I am testing strong tag</strong> <br>
+                <b>I am testign bold tag</b>
+            </li>
+            <li class="list list-3">
+                <em>I am testing emphasis tag</em> <br>
+                <i>I am testing italics tag</i>
+            </li>
+            <li class="list list-4">
+                <ins>I am testing insert tag</ins> <br>
+                <u>I am testing underline tag</u>
+            </li>
+            <li class="list list-5">
+                <del>I am testing delete tag</del>
+            </li>
+            <li class="list list-6">
+                <sup>I am testing superscript tag</sup> <br>
+                <sub>I am testing subscript tag</sub>
+            </li>
+        </ul>
+    </div>
+    <script src="main.js"></script>
 </body>
-</html> 
+
+</html>
